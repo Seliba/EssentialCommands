@@ -6,6 +6,7 @@ EssentialCommands created by Seliba
 
 import de.seliba.essentialcommands.commands.*;
 import de.seliba.essentialcommands.config.Config;
+import de.seliba.essentialcommands.home.Home;
 import de.seliba.essentialcommands.tpa.TpaManager;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -14,6 +15,7 @@ public class Main extends JavaPlugin {
 
     private Config cfg, msg;
     private TpaManager tpaManager;
+    private Home home;
 
     @Override
     public void onEnable() {
@@ -36,6 +38,7 @@ public class Main extends JavaPlugin {
         System.out.println("[EssentialCommands] Config geladen!");
 
         tpaManager = new TpaManager(this);
+        home = new Home(this);
     }
 
     @Override

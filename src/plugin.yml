@@ -27,3 +27,5 @@ commands:
     description: Teleport to a place or a player
   home:
     description: Teleport to homes
+  sethome:
+    description: Create homes
