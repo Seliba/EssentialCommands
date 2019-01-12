@@ -1,0 +1,29 @@
+name: EssentialCommands
+main: de.seliba.essentialcommands.Main
+version: 1.0
+api-version: 1.13
+author: Seliba
+
+commands:
+  time:
+    description: Change the time of the current world
+  toggledownfall:
+    description: Toggle downfall
+  gm:
+    description: Change the gamemode
+  gamemode:
+    description: Change the gamemode
+  nightvision:
+    description: Give nightvision
+  walkspeed:
+    description: Change walkspeed
+  flyspeed:
+    description: Change flyspeed
+  speedbuild:
+    description: Build faster
+  tpa:
+    description: Send a tp request
+  tp:
+    description: Teleport to a place or a player
+  home:
+    description: Teleport to homes

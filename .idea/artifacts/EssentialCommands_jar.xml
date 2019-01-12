@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="EssentialCommands:jar">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="EssentialCommands.jar">
+      <element id="module-output" name="EssentialCommands" />
+    </root>
+  </artifact>
+</component>
